@@ -1,0 +1,43 @@
+@font-face {
+    font-family:"open sans";
+    src: local(open sans);
+    font-size:14px;
+}
+@font-face {
+    font-family: "nasalization-rg.ttf";
+    src: local(nasalization-rg)
+}
+head {
+    background-image:local("texture-header.jpg");
+    height: 150px;
+}
+h1 {
+    font-family: "nasalization-rg.ttf";
+    font-size: 40px;
+    color:#27d1ff;
+    vertical-align: center;
+    text-align: center;
+}
+ol {
+    background-color: #2e2f30;
+    padding-right: 50px;
+    margin:0px;
+    color: white;
+    text-align: right;
+    vertical-align: center;
+    
+}
+a:hover {
+    color:#17c1ff;
+}
+body {
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 810px;
+}
+.logo{
+    text-align: center;
+}
+h2 {
+    text-shadow: black;
+}
